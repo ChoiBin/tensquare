@@ -1,12 +1,13 @@
 package com.tensquare.qas.client;
 
+import com.tensquare.qas.client.impl.BaseClientImpl;
 import entity.Result;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-@FeignClient("tensquare-base")
+@FeignClient(value = "tensquare-base",fallback = BaseClientImpl.class)
 public interface BaseClient {
 
     @RequestMapping(path = "/label/{labelId}",method = RequestMethod.GET)

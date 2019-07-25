@@ -2,93 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f1d621d-522a-4125-8473-2ddfdbde6001" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tensquare_common/src/main/java/util/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_common/src/test/java/com/tensquare/jwt/CreateJwt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_common/src/test/java/com/tensquare/jwt/PraseJwtTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_eureka/src/main/java/com/tensquare/eureka/EurekaServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_eureka/tensquare_eureka.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/FriendApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/client/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/config/InterceptorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/controller/FriendController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/dao/FriendDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/dao/NoFriendDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/interceptor/JwtInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/pojo/Friend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/pojo/NoFriend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/service/FriendService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_friend/tensquare_friend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/client/BaseClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/config/InterceptorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/interceptor/JwtInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_rabbitmqtest/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_rabbitmqtest/src/main/java/com/tensquare/rabbit/RabbitMQApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_rabbitmqtest/src/main/java/com/tensquare/rabbit/customer/Customer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_rabbitmqtest/src/main/java/com/tensquare/rabbit/customer/Customer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_rabbitmqtest/src/main/java/com/tensquare/rabbit/customer/Customer3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_rabbitmqtest/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_rabbitmqtest/src/test/java/com/tensquare/test/ProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_rabbitmqtest/tensquare_rabbitmqtest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_search/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/java/com/tensquare/search/SearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/java/com/tensquare/search/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/java/com/tensquare/search/dao/ArticleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/java/com/tensquare/search/pojo/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/java/com/tensquare/search/service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_search/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_search/tensquare_search.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_sms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_sms/src/main/java/com/tensquare/sms/SmsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_sms/src/main/java/com/tensquare/sms/listener/SmsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_sms/src/main/java/com/tensquare/sms/utils/SmsUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_sms/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_spit/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/java/com/tensquare/spit/SpitApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/java/com/tensquare/spit/controller/SpitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/java/com/tensquare/spit/dao/SpitDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/java/com/tensquare/spit/pojo/Spit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/java/com/tensquare/spit/service/SpitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_spit/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_spit/tensquare_spit.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/config/InterceptorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/BaseExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/dao/AdminDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/interceptor/JwtInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/pojo/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_config/src/main/java/com/tensquare/config/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_config/tensquare_config.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_manager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager/ManagerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager/filter/ManagerFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_manager/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/client/impl/BaseClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_web/src/main/java/com/tensquare/web/WebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_web/src/main/java/com/tensquare/web/filter/WebFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_web/tensquare_web.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_article/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/ArticleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/ArticleApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_article/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensquare_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/BaseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/BaseApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/target/classes/com/tensquare/base/BaseApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/target/classes/com/tensquare/base/BaseApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/LabelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/LabelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_base/target/classes/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tensquare_base/target/classes/com/tensquare/base/controller/LabelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/target/classes/com/tensquare/base/controller/LabelController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/target/classes/com/tensquare/base/service/LabelService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/target/classes/com/tensquare/base/service/LabelService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/target/classes/com/tensquare/base/service/LabelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/target/classes/com/tensquare/base/service/LabelService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_gathering/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_gathering/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_qas/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qas/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/QasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/QasApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/controller/ProblemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/controller/ProblemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/client/BaseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/client/BaseClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensquare_qas/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qas/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -107,6 +43,9 @@
     <ignored path="$PROJECT_DIR$/tensquare_sms/target/" />
     <ignored path="$PROJECT_DIR$/tensquare_eureka/target/" />
     <ignored path="$PROJECT_DIR$/tensquare_friend/target/" />
+    <ignored path="$PROJECT_DIR$/tensquare_manager/target/" />
+    <ignored path="$PROJECT_DIR$/tensquare_web/target/" />
+    <ignored path="$PROJECT_DIR$/tensquare_config/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,13 +56,13 @@
     <session id="1867826166">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="4" />
           <entry key="project.open.time.24" value="1" />
@@ -131,50 +70,51 @@
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="41" />
-          <entry key="java" value="14408" />
-          <entry key="xml" value="259" />
-          <entry key="yml" value="915" />
+          <entry key="dummy" value="47" />
+          <entry key="java" value="15668" />
+          <entry key="txt" value="3" />
+          <entry key="xml" value="275" />
+          <entry key="yml" value="1428" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14407" />
-          <entry key="PLAIN_TEXT" value="41" />
+          <entry key="JAVA" value="15667" />
+          <entry key="PLAIN_TEXT" value="50" />
           <entry key="Spring Data QL" value="1" />
-          <entry key="XML" value="259" />
-          <entry key="YAML" value="915" />
+          <entry key="XML" value="275" />
+          <entry key="YAML" value="1428" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="0-SNAPSHOT" value="1" />
           <entry key="ServletContainerInitializer" value="2" />
-          <entry key="class" value="1" />
+          <entry key="class" value="6" />
           <entry key="iml" value="2" />
-          <entry key="java" value="143" />
+          <entry key="java" value="160" />
           <entry key="md" value="2" />
           <entry key="pom" value="1" />
-          <entry key="xml" value="70" />
+          <entry key="xml" value="83" />
           <entry key="xsd" value="1" />
-          <entry key="yml" value="37" />
+          <entry key="yml" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="6" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="143" />
+          <entry key="JAVA" value="160" />
           <entry key="Markdown" value="2" />
           <entry key="SPI" value="2" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="72" />
-          <entry key="YAML" value="37" />
+          <entry key="XML" value="85" />
+          <entry key="YAML" value="56" />
         </counts>
       </usages-collector>
     </session>
@@ -183,13 +123,53 @@
     <favorites_list name="tensquare_parent" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensquare_config/src/main/java/com/tensquare/config/ConfigServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensquare_config/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensquare_config/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -199,40 +179,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tensquare_sms/src/main/java/com/tensquare/sms/SmsApplication.java" />
-        <option value="$PROJECT_DIR$/tensquare_sms/pom.xml" />
-        <option value="$PROJECT_DIR$/tensquare_sms/src/main/java/com/tensquare/sms/listener/SmsListener.java" />
-        <option value="$PROJECT_DIR$/tensquare_sms/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/dao/AdminDao.java" />
-        <option value="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/service/AdminService.java" />
-        <option value="$PROJECT_DIR$/tensquare_common/pom.xml" />
-        <option value="$PROJECT_DIR$/tensquare_common/src/test/java/com/tensquare/jwt/CreateJwt.java" />
-        <option value="$PROJECT_DIR$/tensquare_common/src/test/java/com/tensquare/jwt/PraseJwtTest.java" />
-        <option value="$PROJECT_DIR$/tensquare_common/src/main/java/util/JwtUtil.java" />
-        <option value="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/config/InterceptorConfig.java" />
-        <option value="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/interceptor/JwtInterceptor.java" />
-        <option value="$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/interceptor/JwtInterceptor.java" />
         <option value="$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/config/InterceptorConfig.java" />
         <option value="$PROJECT_DIR$/tensquare_gathering/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_eureka/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/tensquare_eureka/src/main/java/com/tensquare/eureka/EurekaServer.java" />
         <option value="$PROJECT_DIR$/tensquare_eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_article/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/ArticleApplication.java" />
         <option value="$PROJECT_DIR$/tensquare_article/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/tensquare_user/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/UserApplication.java" />
-        <option value="$PROJECT_DIR$/tensquare_base/pom.xml" />
         <option value="$PROJECT_DIR$/tensquare_base/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/BaseApplication.java" />
-        <option value="$PROJECT_DIR$/tensquare_qas/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/tensquare_qas/pom.xml" />
-        <option value="$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/client/BaseClient.java" />
         <option value="$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/QasApplication.java" />
         <option value="$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/controller/ProblemController.java" />
         <option value="$PROJECT_DIR$/tensquare_friend/pom.xml" />
@@ -250,6 +211,25 @@
         <option value="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/controller/FriendController.java" />
         <option value="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/dao/FriendDao.java" />
         <option value="$PROJECT_DIR$/tensquare_friend/src/main/java/com/tensquare/friend/service/FriendService.java" />
+        <option value="$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/client/impl/BaseClientImpl.java" />
+        <option value="$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/client/BaseClient.java" />
+        <option value="$PROJECT_DIR$/tensquare_qas/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/tensquare_web/pom.xml" />
+        <option value="$PROJECT_DIR$/tensquare_web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/tensquare_web/src/main/java/com/tensquare/web/WebApplication.java" />
+        <option value="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/LabelController.java" />
+        <option value="$PROJECT_DIR$/tensquare_web/src/main/java/com/tensquare/web/filter/WebFilter.java" />
+        <option value="$PROJECT_DIR$/tensquare_manager/pom.xml" />
+        <option value="$PROJECT_DIR$/tensquare_manager/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager/ManagerApplication.java" />
+        <option value="$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager/filter/ManagerFilter.java" />
+        <option value="$PROJECT_DIR$/tensquare_base/pom.xml" />
+        <option value="$PROJECT_DIR$/tensquare_base/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/tensquare_config/src/main/java/com/tensquare/config/ConfigApplication.java" />
+        <option value="$PROJECT_DIR$/tensquare_config/src/main/java/com/tensquare/config/ConfigServerApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/tensquare_config/pom.xml" />
+        <option value="$PROJECT_DIR$/tensquare_config/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -287,10 +267,10 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="240" />
-    <option name="y" value="39" />
+    <option name="x" value="143" />
+    <option name="y" value="32" />
     <option name="width" value="1678" />
-    <option name="height" value="950" />
+    <option name="height" value="943" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -300,6 +280,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,46 +288,10 @@
               <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tensquare_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tensquare_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="tensquare_eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -358,7 +303,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/idea_workplace/tensquare_parent/tensquare_friend/src/main/java/com/tensquare/friend/interceptor/JwtInterceptor.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563946676192" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564031331855" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -368,6 +313,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea_workplace\tensquare_parent\tensquare_base\src\main\resources" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.tensquare.friend.service" />
     </key>
@@ -379,11 +327,11 @@
       <recent name="com.tensquare.rabbit.customer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea_workplace\tensquare_parent\tensquare_web\src\main\resources" />
       <recent name="E:\idea_workplace\tensquare_parent\tensquare_friend\src\main\java\com\tensquare\friend" />
       <recent name="E:\idea_workplace\tensquare_parent\tensquare_qas\src\main\java\com\tensquare\qas" />
       <recent name="E:\idea_workplace\tensquare_parent\tensquare_common\src\main\java\util" />
       <recent name="E:\idea_workplace\tensquare_parent\tensquare_user\src\main\java\com\tensquare\user\config" />
-      <recent name="E:\idea_workplace\tensquare_parent\tensquare_sms\src\main\java\com\tensquare\sms\utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -398,7 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FriendApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
     <configuration name="BaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="tensquare_base" />
       <extension name="coverage">
@@ -412,42 +360,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="tensquare_eureka" />
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tensquare_config" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tensquare.eureka.*" />
+          <option name="PATTERN" value="com.tensquare.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.eureka.EurekaServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.config.ConfigServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FriendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="tensquare_friend" />
+    <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tensquare_manager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tensquare.friend.*" />
+          <option name="PATTERN" value="com.tensquare.manager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.friend.FriendApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="tensquare_qas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tensquare.qas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.qas.QasApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.manager.ManagerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -465,20 +399,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="tensquare_web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tensquare.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tensquare.web.WebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Spring Boot.EurekaServer" />
-      <item itemvalue="Spring Boot.QasApplication" />
+      <item itemvalue="Spring Boot.ManagerApplication" />
+      <item itemvalue="Spring Boot.WebApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.BaseApplication" />
-      <item itemvalue="Spring Boot.FriendApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.FriendApplication" />
-        <item itemvalue="Spring Boot.UserApplication" />
-        <item itemvalue="Spring Boot.QasApplication" />
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
         <item itemvalue="Spring Boot.BaseApplication" />
-        <item itemvalue="Spring Boot.EurekaServer" />
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.ManagerApplication" />
+        <item itemvalue="Spring Boot.WebApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -507,8 +454,17 @@
       <workItem from="1563689231590" duration="11743000" />
       <workItem from="1563775026967" duration="10267000" />
       <workItem from="1563860042607" duration="16443000" />
-      <workItem from="1563944435849" duration="768000" />
+      <workItem from="1563944435849" duration="16896000" />
+      <workItem from="1564025410632" duration="5758000" />
     </task>
+    <task id="LOCAL-00001" summary="第七天">
+      <created>1563946775924</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563946775924</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -532,7 +488,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78279000" />
+    <option name="totallyTimeSpent" value="100165000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -544,10 +500,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="373" y="38" width="1678" height="950" extended-state="0" />
+    <frame x="143" y="32" width="1678" height="943" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936628" visible="true" weight="0.21446384" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49871135" visible="true" weight="0.27618453" />
+      <window_info id="Structure" order="1" sideWeight="0.50128865" side_tool="true" weight="0.21446384" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -556,7 +513,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32918552" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.93614304" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.9330759" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -586,319 +543,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第七天" />
+    <option name="LAST_COMMIT_MESSAGE" value="第七天" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tensquare_common/src/test/java/com/tensquare/jwt/PraseJwtTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_common/src/main/java/util/JwtUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/config/InterceptorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/config/WebSecurityConfig.java" />
-    <entry file="file://$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/interceptor/JwtInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/config/InterceptorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_gathering/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_eureka/tensquare_eureka.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-eureka-server/2.0.1.RELEASE/spring-cloud-starter-netflix-eureka-server-2.0.1.RELEASE.pom" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_gathering/src/main/java/com/tensquare/gathering/GatheringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.tensquare:tensquare_eureka:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.tensquare:tensquare_eureka:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.tensquare:tensquare_eureka:1.0-SNAPSHOT</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-context:jar:2.0.0.RELEASE/org.springframework.security:spring-security-crypto:jar:5.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:2.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.56</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:2.0.0.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.5.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.56/org.bouncycastle:bcprov-jdk15on:jar:1.56</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-actuator:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE/io.micrometer:micrometer-core:jar:1.0.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE/io.micrometer:micrometer-core:jar:1.0.3/org.hdrhistogram:HdrHistogram:jar:2.1.10</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.boot:spring-boot-starter-actuator:jar:2.0.1.RELEASE/io.micrometer:micrometer-core:jar:1.0.3/org.latencyutils:LatencyUtils:jar:2.0.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.boot:spring-boot-starter-freemarker:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.boot:spring-boot-starter-freemarker:jar:2.0.1.RELEASE/org.freemarker:freemarker:jar:2.3.28</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.boot:spring-boot-starter-freemarker:jar:2.0.1.RELEASE/org.springframework:spring-context-support:jar:5.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:2.0.0.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.0.1.RELEASE/org.aspectj:aspectjweaver:jar:1.8.13</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:2.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/org.codehaus.jettison:jettison:jar:1.3.7</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/commons-jxpath:commons-jxpath:jar:1.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/org.antlr:stringtemplate:jar:3.2.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/antlr:antlr:jar:2.7.7</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.guava:guava:jar:14.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.code.gson:gson:jar:2.8.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.servo:servo-core:jar:0.5.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.archaius:archaius-core:jar:0.3.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/org.apache.commons:commons-math:jar:2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/javax.ws.rs:jsr311-api:jar:1.1.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.netflix.servo:servo-core:jar:0.12.21</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.netflix.servo:servo-core:jar:0.12.21/com.google.guava:guava:jar:19.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.sun.jersey:jersey-core:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.sun.jersey:jersey-client:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/org.apache.httpcomponents:httpclient:jar:4.5.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/org.apache.httpcomponents:httpclient:jar:4.5.5/org.apache.httpcomponents:httpcore:jar:4.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/org.apache.httpcomponents:httpclient:jar:4.5.5/commons-codec:commons-codec:jar:1.11</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.google.inject:guice:jar:4.1.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.google.inject:guice:jar:4.1.0/aopalliance:aopalliance:jar:1.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:16.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.github.vlsi.compactmap:compactmap:jar:1.2.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.github.vlsi.compactmap:compactmap:jar:1.2.1/com.github.andrewoma.dexx:dexx-collections:jar:0.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-client:jar:1.9.2/com.fasterxml.jackson.core:jackson-core:jar:2.9.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.sun.jersey:jersey-servlet:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.sun.jersey:jersey-server:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.2/com.amazonaws:aws-java-sdk-core:jar:1.11.277</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.2/com.amazonaws:aws-java-sdk-core:jar:1.11.277/commons-logging:commons-logging:jar:1.1.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.2/com.amazonaws:aws-java-sdk-core:jar:1.11.277/software.amazon.ion:ion-java:jar:1.0.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.2/com.amazonaws:aws-java-sdk-core:jar:1.11.277/com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.9.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.2/com.amazonaws:aws-java-sdk-core:jar:1.11.277/joda-time:joda-time:jar:2.9.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.2/com.amazonaws:aws-java-sdk-ec2:jar:1.11.277</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.2/com.amazonaws:aws-java-sdk-ec2:jar:1.11.277/com.amazonaws:jmespath-java:jar:1.11.277</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.2/com.amazonaws:aws-java-sdk-autoscaling:jar:1.11.277</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.2/com.amazonaws:aws-java-sdk-sts:jar:1.11.277</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.2/com.amazonaws:aws-java-sdk-route53:jar:1.11.277</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.2/javax.servlet:servlet-api:jar:2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.2/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.eureka:eureka-core:jar:1.9.2/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/javax.xml.stream:stax-api:jar:1.0-2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.code.findbugs:jsr305:jar:3.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.6/com.google.guava:guava:jar:16.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/javax.inject:javax.inject:jar:1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.5/com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.9.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.5/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.9.5/com.fasterxml.woodstox:woodstox-core:jar:5.0.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10/xmlpull:xmlpull:jar:1.1.3.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-server:jar:2.0.0.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.10/xpp3:xpp3_min:jar:1.1.4c</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RELEASE/commons-configuration:commons-configuration:jar:1.8</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.0.0.RELEASE/commons-configuration:commons-configuration:jar:1.8/commons-lang:commons-lang:jar:2.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/io.reactivex:rxnetty-servo:jar:0.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/io.reactivex:rxnetty-servo:jar:0.4.9/com.netflix.servo:servo-core:jar:0.7.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/com.google.guava:guava:jar:16.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.ribbon:ribbon-transport:jar:2.2.5/com.netflix.archaius:archaius-core:jar:0.7.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.hystrix:hystrix-core:jar:1.4.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.hystrix:hystrix-core:jar:1.4.3/com.netflix.archaius:archaius-core:jar:0.4.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.1.23.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.1.23.Final/io.netty:netty-codec:jar:4.1.23.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.23.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.23.Final/io.netty:netty-common:jar:4.1.23.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.23.Final/io.netty:netty-buffer:jar:4.1.23.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.23.Final/io.netty:netty-transport-native-unix-common:jar:4.1.23.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.23.Final/io.netty:netty-transport:jar:4.1.23.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.1.23.Final/io.netty:netty-transport:jar:4.1.23.Final/io.netty:netty-resolver:jar:4.1.23.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.google.guava:guava:jar:16.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.5/com.netflix.archaius:archaius-core:jar:0.7.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.5/com.netflix.archaius:archaius-core:jar:0.7.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/commons-collections:commons-collections:jar:3.2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.netflix.servo:servo-core:jar:0.10.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.google.guava:guava:jar:16.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.netflix.archaius:archaius-core:jar:0.7.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.5/com.netflix.netflix-commons:netflix-commons-util:jar:0.1.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.netflix.servo:servo-core:jar:0.12.21</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.google.guava:guava:jar:16.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.5/com.netflix.archaius:archaius-core:jar:0.7.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-ribbon:jar:2.0.0.RELEASE/io.reactivex:rxjava:jar:1.3.8</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.5</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.5/com.netflix.eureka:eureka-client:jar:1.4.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.5/org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:jar:2.0.0.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.5/com.netflix.archaius:archaius-core:jar:0.7.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0/org.apache.logging.log4j:log4j-api:jar:2.10.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.1.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.1.RELEASE/org.yaml:snakeyaml:jar:1.19</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.5</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.5</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.5</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.1.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.5</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.29</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.29</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.1.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.29</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.9.Final/com.fasterxml:classmate:jar:1.3.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework:spring-web:jar:5.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework:spring-web:jar:5.0.5.RELEASE/org.springframework:spring-beans:jar:5.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework:spring-webmvc:jar:5.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework:spring-webmvc:jar:5.0.5.RELEASE/org.springframework:spring-aop:jar:5.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework:spring-webmvc:jar:5.0.5.RELEASE/org.springframework:spring-context:jar:5.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.1.RELEASE/org.springframework:spring-webmvc:jar:5.0.5.RELEASE/org.springframework:spring-expression:jar:5.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-test:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.1.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/junit:junit:jar:4.12</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.assertj:assertj-core:jar:3.9.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.mockito:mockito-core:jar:2.15.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy:jar:1.7.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy-agent:jar:1.7.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.mockito:mockito-core:jar:2.15.0/org.objenesis:objenesis:jar:2.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.springframework:spring-core:jar:5.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.springframework:spring-core:jar:5.0.5.RELEASE/org.springframework:spring-jcl:jar:5.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.springframework:spring-test:jar:5.0.5.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.1.RELEASE/org.xmlunit:xmlunit-core:jar:2.5.1</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.9" x="9863.0" y="1060.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_eureka/src/main/java/com/tensquare/eureka/EurekaServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/ArticleApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_article/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="27" selection-start-line="27" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_article/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -913,20 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/BaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_qas/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/BaseExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -934,38 +569,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/LabelController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" selection-start-line="27" selection-end-line="28" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/client/BaseClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="35" selection-start-line="11" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/controller/ProblemController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="43">
           <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/QasApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="13" selection-end-line="31" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -980,20 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="681">
           <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1064,13 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/UserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
@@ -1082,9 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1092,9 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1102,9 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1541">
           <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1112,9 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1122,9 +696,212 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
           <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_eureka/src/main/java/com/tensquare/eureka/EurekaServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/QasApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/client/impl/BaseClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_qas/src/main/java/com/tensquare/qas/client/BaseClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_qas/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_web/src/main/java/com/tensquare/web/WebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/LabelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_web/src/main/java/com/tensquare/web/filter/WebFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_manager/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager/ManagerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="159" column="20" lean-forward="true" selection-start-line="159" selection-start-column="20" selection-end-line="159" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/manager/filter/ManagerFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.0.0.RELEASE/spring-cloud-config-server-2.0.0.RELEASE.jar!/org/springframework/cloud/config/server/EnableConfigServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.0.0.RELEASE/spring-cloud-config-server-2.0.0.RELEASE.jar!/org/springframework/cloud/config/server/config/ConfigServerConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/BaseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.0.0.RELEASE/spring-cloud-config-server-2.0.0.RELEASE.jar!/org/springframework/cloud/config/server/environment/EnvironmentController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2438">
+          <caret line="142" column="29" selection-start-line="142" selection-start-column="29" selection-end-line="142" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="63" column="37" lean-forward="true" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_config/src/main/java/com/tensquare/config/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensquare_base/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>

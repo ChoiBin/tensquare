@@ -1,5 +1,6 @@
 package com.tensquare.base.controller;
 
+import com.netflix.discovery.converters.Auto;
 import com.tensquare.base.pojo.Label;
 import com.tensquare.base.service.LabelService;
 import entity.PageResult;
@@ -10,6 +11,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
 import javax.persistence.Id;
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 @RestController
@@ -19,9 +21,13 @@ public class LabelController {
 
     @Autowired
     private LabelService labelService;
+    @Autowired
+    private HttpServletRequest request;
 
     @RequestMapping(method = RequestMethod.GET)
     public Result findAll(){
+        String header = request.getHeader("Authorization");
+        System.out.println(header);
         return new Result(true, StatusCode.OK,"查询成功",labelService.findAll());
     }
 
